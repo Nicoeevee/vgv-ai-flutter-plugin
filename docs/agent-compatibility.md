@@ -8,7 +8,7 @@ This document defines how AI coding agents consume the VGV Flutter plugin resour
 
 The following directories are agent-neutral:
 
-```
+```text
 skills/
 agents/
 ```
@@ -21,7 +21,7 @@ They contain engineering knowledge and review workflows.
 
 Uses:
 
-```
+```text
 .claude-plugin/
 CLAUDE.md
 ```
@@ -30,7 +30,7 @@ CLAUDE.md
 
 Uses:
 
-```
+```text
 .codex-plugin/
 CODEX.md
 ```
