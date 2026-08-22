@@ -43,7 +43,7 @@ VGV AI Flutter Plugin is a collection of contextual best-practices skills for Fl
 
 ## Architecture
 
-```
+```text
 .
 ├── .claude-plugin/     # Claude Code plugin metadata
 ├── .codex-plugin/      # OpenAI Codex plugin metadata
