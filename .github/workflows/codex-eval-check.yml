@@ -1,0 +1,22 @@
+name: Codex Eval Check
+
+on:
+  pull_request:
+    paths:
+      - 'evals/codex/**'
+      - '.codex-plugin/**'
+      - 'CODEX.md'
+
+jobs:
+  validate-codex:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Validate Codex plugin metadata
+        run: bash scripts/validate-codex-plugin.sh
+
+      - name: Validate eval cases
+        run: |
+          test -d evals/codex/cases
+          test "$(find evals/codex/cases -name '*.md' | wc -l)" -gt 0
