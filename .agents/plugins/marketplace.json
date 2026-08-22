@@ -1,10 +1,19 @@
 {
   "name": "vgv-ai-flutter-plugin-marketplace",
+  "interface": {
+    "displayName": "VGV Flutter AI Plugins"
+  },
   "plugins": [
     {
       "name": "vgv-ai-flutter-plugin",
-      "description": "Flutter and Dart engineering skills for Codex.",
-      "path": "."
+      "source": {
+        "source": "local",
+        "path": "."
+      },
+      "policy": {
+        "installation": "AVAILABLE"
+      },
+      "category": "Development"
     }
   ]
 }
