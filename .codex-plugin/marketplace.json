@@ -1,0 +1,10 @@
+{
+  "name": "vgv-ai-flutter-plugin",
+  "plugins": [
+    {
+      "name": "vgv-ai-flutter-plugin",
+      "description": "Flutter and Dart engineering skills for Codex.",
+      "path": "."
+    }
+  ]
+}
