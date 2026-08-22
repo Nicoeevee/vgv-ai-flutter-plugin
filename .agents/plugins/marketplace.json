@@ -1,0 +1,19 @@
+{
+  "name": "vgv-ai-flutter-plugin-marketplace",
+  "interface": {
+    "displayName": "VGV Flutter AI Plugins"
+  },
+  "plugins": [
+    {
+      "name": "vgv-ai-flutter-plugin",
+      "source": {
+        "source": "local",
+        "path": "."
+      },
+      "policy": {
+        "installation": "AVAILABLE"
+      },
+      "category": "Development"
+    }
+  ]
+}
