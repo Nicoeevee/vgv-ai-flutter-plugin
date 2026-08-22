@@ -1,0 +1,8 @@
+{
+  "name": "vgv-ai-flutter-plugin",
+  "description": "AI plugin that accelerates Flutter and Dart development with VGV best practices.",
+  "version": "0.0.5",
+  "agents": "../agents",
+  "skills": "../skills",
+  "instructions": "../CODEX.md"
+}
