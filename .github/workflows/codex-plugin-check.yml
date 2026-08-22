@@ -1,0 +1,35 @@
+name: Codex Plugin Check
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+      - feat/codex-marketplace-support
+
+jobs:
+  validate-codex-plugin:
+    name: Validate Codex plugin metadata
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check Codex files exist
+        run: |
+          test -f .codex-plugin/plugin.json
+          test -f .codex-plugin/marketplace.json
+          test -f CODEX.md
+
+      - name: Validate JSON
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          for path in [
+              '.codex-plugin/plugin.json',
+              '.codex-plugin/marketplace.json',
+          ]:
+              json.loads(Path(path).read_text())
+              print(f'valid: {path}')
+          PY
