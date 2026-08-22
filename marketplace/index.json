@@ -1,0 +1,11 @@
+{
+  "name": "vgv-ai-flutter-plugin-marketplace",
+  "version": "1.0.0",
+  "plugins": [
+    {
+      "name": "vgv-ai-flutter-plugin",
+      "source": "./",
+      "description": "Flutter and Dart best-practice skills for Claude Code and OpenAI Codex"
+    }
+  ]
+}
