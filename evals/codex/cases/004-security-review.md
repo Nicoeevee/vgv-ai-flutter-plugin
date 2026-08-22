@@ -6,7 +6,7 @@ Verify Flutter-specific security review behavior.
 
 ## Prompt
 
-```
+```text
 Review this Flutter code for security issues.
 Check secrets, storage, randomness, and dependency risks.
 ```
