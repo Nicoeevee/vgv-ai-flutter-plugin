@@ -7,9 +7,8 @@
     {
       "name": "vgv-ai-flutter-plugin",
       "source": {
-        "source": "git",
-        "url": "https://github.com/Nicoeevee/vgv-ai-flutter-plugin.git",
-        "ref": "feat/codex-marketplace-support"
+        "source": "local",
+        "path": "."
       },
       "policy": {
         "installation": "AVAILABLE"
