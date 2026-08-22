@@ -6,7 +6,7 @@ Verify that Codex follows Flutter testing practices.
 
 ## Prompt
 
-```
+```text
 Create widget tests for this Flutter screen.
 Use recommended Flutter testing patterns.
 ```
