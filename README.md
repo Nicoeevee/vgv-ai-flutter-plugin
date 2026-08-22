@@ -18,6 +18,7 @@ The plugin keeps a shared engineering knowledge base while providing agent-speci
 
 - Claude Code configuration: `.claude-plugin/`, `CLAUDE.md`
 - OpenAI Codex configuration: `.codex-plugin/`, `CODEX.md`
+- Codex marketplace manifest: `.agents/plugins/marketplace.json`
 - Shared resources: `skills/`, `agents/`
 
 ## Installation
@@ -30,7 +31,7 @@ claude plugin marketplace add VeryGoodOpenSource/very-good-claude-code-marketpla
 
 ### OpenAI Codex
 
-Install from the Codex plugin marketplace metadata:
+Install from the Codex marketplace manifest:
 
 ```bash
 codex plugin marketplace add Nicoeevee/vgv-ai-flutter-plugin
@@ -45,12 +46,13 @@ VGV AI Flutter Plugin is a collection of contextual best-practices skills for Fl
 
 ```text
 .
-├── .claude-plugin/     # Claude Code plugin metadata
-├── .codex-plugin/      # OpenAI Codex plugin metadata
-├── agents/             # Shared specialized reviewers
-├── skills/             # Shared Flutter/Dart knowledge
-├── CLAUDE.md           # Claude-specific instructions
-└── CODEX.md            # Codex-specific instructions
+├── .claude-plugin/              # Claude Code plugin metadata
+├── .codex-plugin/               # OpenAI Codex plugin metadata
+├── .agents/plugins/             # Codex marketplace metadata
+├── agents/                      # Shared specialized reviewers
+├── skills/                      # Shared Flutter/Dart knowledge
+├── CLAUDE.md                    # Claude-specific instructions
+└── CODEX.md                     # Codex-specific instructions
 ```
 
 ## Agent Compatibility
