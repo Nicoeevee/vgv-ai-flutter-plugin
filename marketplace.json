@@ -1,0 +1,20 @@
+{
+  "name": "vgv-ai-flutter-plugin-marketplace",
+  "interface": {
+    "displayName": "VGV Flutter AI Plugins"
+  },
+  "plugins": [
+    {
+      "name": "vgv-ai-flutter-plugin",
+      "source": {
+        "source": "git",
+        "url": "https://github.com/Nicoeevee/vgv-ai-flutter-plugin.git",
+        "ref": "feat/codex-marketplace-support"
+      },
+      "policy": {
+        "installation": "AVAILABLE"
+      },
+      "category": "Development"
+    }
+  ]
+}
