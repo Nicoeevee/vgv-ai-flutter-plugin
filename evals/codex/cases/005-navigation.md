@@ -6,7 +6,7 @@ Verify routing recommendations follow the navigation skill.
 
 ## Prompt
 
-```
+```text
 Add a new route to this Flutter application.
 Use type-safe navigation patterns.
 ```
