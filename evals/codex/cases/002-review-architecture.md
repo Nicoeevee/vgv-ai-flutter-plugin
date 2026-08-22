@@ -6,7 +6,7 @@ Verify that Codex applies the layered architecture skill when reviewing Flutter 
 
 ## Prompt
 
-```
+```text
 Review this Flutter project architecture and suggest improvements.
 Focus on dependency direction, layer boundaries, and maintainability.
 ```
